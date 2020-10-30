@@ -1,4 +1,5 @@
 <?php
+// This is a single-line comment
     require 'connect.php';
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $name = $passwrod = $email = "";
